@@ -4,7 +4,6 @@ interface ResultCardProps {
   number: number;
   title: string;
   score: string;
-  scoreColor: string;
   description: string;
   strategy: string;
   borderColor: string;
@@ -15,7 +14,6 @@ const ResultCard1: React.FC<ResultCardProps> = ({
   number, 
   title, 
   score, 
-  scoreColor, 
   description, 
   strategy, 
   borderColor,

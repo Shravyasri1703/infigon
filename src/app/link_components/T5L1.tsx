@@ -1,6 +1,5 @@
 import React from 'react'
 import Introduction from '../Heplers/Introduction'
-import Para1 from '../Heplers/Para1'
 import LinkCard2 from '../Heplers/LinkCard2'
 import LinkCard3 from '../Heplers/LinkCard3'
 import Image from 'next/image'
