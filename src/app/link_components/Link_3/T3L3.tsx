@@ -1,4 +1,4 @@
-import ResultCard from '@/app/Heplers/ResultCard'
+
 import React from 'react'
 
 const T3L3 = () => {
