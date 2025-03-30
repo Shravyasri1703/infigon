@@ -17,7 +17,13 @@ import T3L2 from '@/app/link_components/Link_2/T3L2'
 import TwL2 from '@/app/link_components/Link_2/TwL2'
 import { IoMenu } from 'react-icons/io5'
 
-const SideBar = ({ onContentChange, activeLink, setActiveLink }) => {
+interface SideBarProps {
+  onContentChange: (component: React.ReactNode) => void;
+  activeLink: string;
+  setActiveLink: (link: string) => void;
+}
+
+const SideBar:  React.FC<SideBarProps> = ({ onContentChange, activeLink, setActiveLink }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
   const [isMobileOpen, setIsMobileOpen] = useState(false)
 
