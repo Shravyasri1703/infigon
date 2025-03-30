@@ -14,6 +14,7 @@ const Header_2 = () => {
             <div className='h-8 w-8 bg-[#CACACA] rounded-2xl flex items-center justify-center'>
               <h1 className='text-white font-semibold text-[13px]'>{num}</h1>
             </div>
+            <h1 className='text-[16px] blur-[2px] font-bold ml-1'>Engineer</h1>
           </div>
         ))}
       </div>
